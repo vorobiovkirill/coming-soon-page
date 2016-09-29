@@ -1,7 +1,7 @@
 $(function() {
 
 // Countdown
-$('#getting-started').countdown('2016/09/19', function(event) {
+$('#getting-started').countdown('2017/02/01', function(event) {
 	$(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
 });
 
